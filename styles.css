@@ -1,0 +1,59 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.vending-machine {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  background: #40e0d0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #ff0080,
+    #ff8c00,
+    #40e0d0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #ff0080,
+    #ff8c00,
+    #40e0d0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header {
+  align-self: center;
+}
+.total-line {
+  align-self: center;
+  font-weight: bold;
+}
+
+.buttons1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 5px 0px;
+  margin: 10px;
+}
+
+.make-money {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.make-money-form {
+  display: flex;
+  flex-direction: column;
+}
