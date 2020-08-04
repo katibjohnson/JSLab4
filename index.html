@@ -9,8 +9,8 @@
   <body>
     <main class="main">
       <section class="vending-machine">
-        <h2 class="header">#1 Vending Machine</h2>
-        <p class="total-line">Total: $<span class="total">0</span>.00</p>
+        <h2 class="vendingheader">#1 Vending Machine</h2>
+        <p class="total-line"></p>
         <button class="lime-cola buttons1" data-amount="2.00">
           Lime Cola $2.00
         </button>
@@ -30,20 +30,28 @@
           <label for="how-many">How many?</label>
           <input
             type="number"
+            name="how-many-coins"
             id="how-many"
             placeholder="# of coins"
-            name="how-many-coins"
           />
           <label for="which">Which coin?</label>
           <select id="which" name="which-coin">
-            <option value="Penny">Penny</option>
-            <option value="Nickel">Nickel</option>
-            <option value="Dime">Dime</option>
-            <option value="Quarter">Quarter</option>
+            <option value="penny">Penny</option>
+            <option value="nickel">Nickel</option>
+            <option value="dime">Dime</option>
+            <option value="quarter">Quarter</option>
           </select>
           <button class="money">Make Money!</button>
         </form>
         <div class="container"></div>
+      </section>
+
+      <section class="light-bulb">
+        <div class="lightbulb">Lightbulb</div>
+        <button class="on switch">On</button>
+        <button class="off switch">Off</button>
+        <button class="toggle switch">Toggle</button>
+        <button class="end switch">End</button>
       </section>
     </main>
 
